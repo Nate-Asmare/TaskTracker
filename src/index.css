@@ -1,13 +1,83 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  margin: 20px auto;
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  width: 500px;
+  /* height: 100px; */
+  padding-bottom: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+}
+.btn{
+  width: 100px;
+}
+input[type=submit], .btn {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=checkbox] {
+  margin: 10px;
+}
+
+form {
+  padding: 0 20px;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+
+.task {
+  border-radius: 3px;
+  padding: 0 20px;
+  margin: 5px 20px;
+  /* padding: 2px; */
+  background: #f4f4f4;
+  font-family: Apple Chancery, cursive;
+  font-size: 1em;
+  cursor: pointer;
+}
+.no {
+  border-left: 4px solid green;
+}
+
+.subTask {
+  display: inline-block;
+  width:96%;
+  /* border: 1px solid red; */
+}
+.close {
+  color: red;
+  font-size: 1.3em;
+}
+.block {
+  display: block;
+}
+.noTask {
+  text-align: center;
 }
